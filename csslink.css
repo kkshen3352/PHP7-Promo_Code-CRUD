@@ -1,0 +1,152 @@
+:root{
+    --font: 'Noto Sans TC', sans-serif;
+    --title-size:20px;
+    --in-size:16px;
+    --left-text: #bdc0ba;
+    --in-text:#2d2e2d
+}
+body{
+    max-width: 1440px;
+    max-height: 900px;
+    margin: 0;
+    padding: 0;
+    background: #f6f6f6;
+    font-family: var(--font);
+}
+.color{
+    background: #407088;
+}
+
+.icon img{
+    width: 100%;
+    object-fit: cover;
+}
+.photo{
+    width: 55px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+.photo img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+}
+.photo_box{
+    width: 80px;
+    margin: 0;
+    padding: 0;
+}
+
+.nowrap{
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+table{
+    height: 680px;
+    table-layout: fixed;
+    white-space: nowrap;
+    text-align: center;
+    align-items: center;
+}
+th{
+    font-weight: bold;
+    color: var(--in-text);
+    font-size: var(--title-size);
+    text-align: center;
+    align-items: center;
+}
+td {
+    height: 100px;
+    font-weight: normal;
+    color: var(--in-text);
+    font-size: var(--in-size);
+    vertical-align: center;
+    align-items: center;
+    
+}
+.twobtn{
+    margin: 0 0 0 -12px;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 0;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.change{
+    background: #f07b3f;
+    color: #000000;
+    margin-bottom:5px ;
+
+}
+.hi{
+    margin-top: 10px;
+}
+.hi p{
+    font-size: 25px;
+    color: var(--left-text);
+    font-weight: bold;
+}
+.left{
+
+    background: #132743;
+
+    border-radius: 5px;
+    margin-right: 30px;
+
+}
+.line{
+    width: 100px;
+    border: 4px solid #d7b98e;
+    border-radius: 5px;
+    margin:0 auto;
+}
+.select{
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.select a{
+    text-decoration: none;
+    color: var(--left-text);
+}
+.box{
+    width: 250px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+    border-radius: 5px;
+    padding-left: 50px;
+}
+.svg{
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+}
+.svg img{
+    width:100%;
+    height: 100%;
+}
+.box:hover{
+    background-color:rgb(64,112,136,0.5);
+
+}
+.new{
+    background: #abedd8;
+    color: #000000;
+    margin-right:5px ;
+
+}
+.del{
+    background: #d0104c;
+    color: #ffffff;
+
+}
